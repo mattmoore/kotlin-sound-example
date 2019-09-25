@@ -1,0 +1,6 @@
+package = SDL
+
+headers = SDL.h SDL_mixer.h
+
+compilerOpts.osx = -I/usr/local/include/SDL2
+linkerOpts.osx = -L/usr/local/lib -lSDL2 -lSDL2_mixer
